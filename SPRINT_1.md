@@ -1,22 +1,20 @@
-# Sprint 1: System Architecture & Scope Definition
-### Project: An Online Clothing & Apparel Store
-
+# E-Commerce Project - Sprint 1
 ---
 
-## Section 1: Target Audience & Market Focus
+## 1. Target Audience & Market Focus
 
-**Primary Persona:**
+**- Primary Persona:**
 Retail consumers aged 18–40 shopping for everyday and casual clothing online students and young professionals who want a simple, fast browsing/checkout experience with clear sizing and category navigation, rather than a cluttered multi-vendor marketplace.
 
-**Core Pain Point:**
+**- Core Pain Point:**
 Many small-to-mid apparel sellers either rely on expensive third-party marketplace fees or run sales manually through social media, with no proper cart, size/variant tracking, or order history for customers. Buyers, in turn, often struggle with unclear stock/size availability and clunky checkout flows on smaller apparel sites.
 
-**Domain Scope:**
+**- Domain Scope:**
 Vertical market: **Apparel / Clothing** — covering categories such as Men's Wear, Women's Wear, Footwear, and Accessories, with product variants by size and color.
 
 ---
 
-## Section 2: MVP Feature Scope
+## 2. Minimum Viable Product (MVP) Feature Scope
 
 | Category | Feature Name | Description | Priority |
 |---|---|---|---|
@@ -29,7 +27,7 @@ Vertical market: **Apparel / Clothing** — covering categories such as Men's We
 
 ---
 
-## Section 3: Tech Stack Selection & Justification
+## 3. Tech Stack Selection & Justification
 
 - **Frontend Framework: React (with Vite)**
   Justification: React's component model fits a catalog/cart/checkout UI well, has the largest ecosystem for UI libraries and state management, and Vite keeps local dev/build times fast for iterative sprint work.A lighter setup than Next.js since server-side rendering/SEO isn't a grading priority here.
@@ -45,7 +43,7 @@ Vertical market: **Apparel / Clothing** — covering categories such as Men's We
 
 ---
 
-## Section 4: Entity-Relationship Diagram (ERD)
+## 4. Entity-Relationship Diagram (ERD)
 
 **Structural notes:**
 - `USERS (1) — (N) ORDERS`: one user can place many orders.
