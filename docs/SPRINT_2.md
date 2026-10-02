@@ -1,4 +1,4 @@
-# Sprint 2: Catalog Data Foundation
+# E-Commerce Project Sprint 2: Catalog Data Foundation
 
 This document describes the backend that is in the repository. Sprint 1 is the design record in [SPRINT_1.md](SPRINT_1.md). No Sprint 1 application code was present, so the migration creates the schema rather than altering earlier tables.
 
